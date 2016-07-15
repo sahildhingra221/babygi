@@ -889,23 +889,21 @@ div#load_screen > div#loading {
         line-height:10vh; 
         color:#211414;
         width:100%;
-        margin-left:-20vw;
+        margin-left:-vw;
+        position: absolute;
     }
     #fifth-con-btn{
         padding:2vh;
         width:12vw;
         text-align:center; 
-        font:1.2vw montserrat;
+        font:2vw montserrat;
         background:#fff;
         transition:0.2s;
         color:#220e0e;
         margin-left:40vw;
         cursor:pointer;
-    }
-
-    #fifth-con-btn:hover{
-        color:#999999;
-        background:#f2f2f2;
+        position: absolute;
+        margin-top:20vh;
     }
 
 
@@ -914,6 +912,146 @@ div#load_screen > div#loading {
         display:none; 
     }
     
+    /*****************start-sixth-content*****************/
+
+
+    #sixth-con{
+        height:50vh;
+    }
+
+    #heading-sixth-cont{
+        display: none;
+    }
+
+    #para-sixth-cont{
+        margin:10vh 24.5vw;
+        width:45vw;
+        font:3vw cursive;
+    }
+
+    #sixth-con-btn{
+        padding:2vh;
+        width:12vw;
+        text-align:center; 
+        font:2.2vw montserrat;
+        background:#fff;
+        transition:0.2s;
+        color:#220e0e;
+        margin:49vw 38vw;
+        cursor:pointer;
+        position:absolute;
+    }
+
+    #sixth-con-btn:hover{
+        color:#999999;
+        background:#f2f2f2;
+    }
+
+
+    /*****************end-sixth-content*****************/
+    
+
+    /*****************start-seventh-content*****************/
+
+
+    #seventh-con{
+        height:50vh;
+        background:#333;
+    }
+
+    #address{
+        float:left;
+        width:25vw;
+        text-align:center;
+        color:#c84747;
+        font:2.3vw montserrat;
+        margin:10vh 0vw 0vh 15vw;
+        cursor:default;
+    }
+
+    #footer-comp-logo{
+        width:7vw;
+        float:left;
+        margin:11vh 0vw 0vh 8vw;
+    }
+
+    #social-links{
+        float:left;
+        margin:9vh 0vw 0vh 0vw;
+        list-style:none;
+        font-family:montserrat;
+        color:#c84747;
+        width:9vw;
+        font-size:2vw;
+    }
+
+    #social-links li{
+        text-align: center;
+        cursor:pointer;
+        padding:1vh;
+        transition:0.2s ease-in;
+    }
+
+    #social-links li:hover{
+        color:#200d0d;
+    }
+
+    #finance-opt{
+        position:absolute;
+        margin:29.5vh 0vw 0vh 0vw;
+        text-align:center;
+        width:100%;
+        font:2vw montserrat;
+        cursor:default;
+        color:#c84747;
+    }
+
+    #footer-log{
+        margin:12.5vh 0vw 0vh 30vw;
+        height:4vh;
+        width:35vw;
+    }
+
+    #copyright{
+        font:3vw montserrat;
+        text-align:center;
+        cursor:default;
+        color:#c84747;
+        margin-top:10vh;
+    }
+
+
+
+
+
+    /*****************end-seventh-content*****************/
+    
+    div#load_screen {
+        background: #000;
+        opacity: 1;
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+        width: 100%;
+        height: 1600px;
+    }
+
+    div#load_screen > div#loading {
+        font-family: monospace;
+        color: #FFF;
+        width: 100%;
+        margin: 150px auto;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    #gif {
+        margin-left: 40vw;
+        margin-top: -60vh;
+        height:7vh;
+        width:14vw;
+    }
+
     
     
 }
